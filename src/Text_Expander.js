@@ -48,7 +48,7 @@ function TextExpander({
 
   const displayText = isExpanded
     ? children
-    : children.split(" ").slice(0, collapsedNumWords).join(" ") + "...";
+    : children.split(" ").slice(0, collapsedNumWords).join(" ") + "..."; // here join() vonverting the array back to string
 
   const buttonStyle = {
     background: "none",
