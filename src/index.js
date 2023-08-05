@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./AccordionV1.css";
-import Calculator from "./Calculator.js";
+import Text_Expander from "./Text_Expander.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <Text_Expander />
   </React.StrictMode>
 );
